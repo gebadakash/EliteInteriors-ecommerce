@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "name":"Kristin Watson",
+        "title":"First Time Home Owner Ideas",
+        "image":"images/post-1.jpg",
+        "date":"Dec 19, 2021"
+    },
+
+    {
+        "id":2,
+        "name":"Kristin Watson",
+        "title":"First Time Home Owner Ideas",
+        "image":"images/post-2.jpg",
+        "date":"Dec 19, 2021"
+    },
+
+     {
+        "id":3,
+        "name":"Kristin Watson",
+        "title":"First Time Home Owner Ideas",
+        "image":"images/post-3.jpg",
+        "date":"Dec 19, 2021"
+
+     }
+
+]

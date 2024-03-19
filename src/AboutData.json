@@ -1,0 +1,32 @@
+[
+
+
+    {
+        "id":1,
+        "title":"Fast & Free Shipping",
+        "image":"images/truck.svg",
+        "content":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+    },
+
+    {
+        "id":2,
+        "title":"Easy to Shop",
+        "image":"images/bag.svg",
+        "content":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est."
+    },
+
+     {
+        "id":3,
+        "title":"24/7 Support",
+        "image":"images/support.svg",
+        "content":"Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
+    },
+
+    {
+        "id":4,
+        "title":"Hassle Free Returns",
+        "image":"images/return.svg",
+        "content":"Orci ac auctor augue mauris augue. Et magnis dis parturient montes nascetur ridiculus mus mauris"
+    }
+]
+

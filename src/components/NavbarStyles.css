@@ -1,0 +1,59 @@
+.custom-navbar .navbar-brand {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.custom-navbar .custom-navbar-nav li.active a {
+  opacity: 1;
+}
+
+.custom-navbar {
+  background: #3b5d50 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff; /* Text color for navigation links */
+  text-decoration: none;
+  font-size: 28px;
+  position: relative; /* Enable underline positioning */
+  transition: all 0.3s ease;
+  
+}
+
+.nav-link:after {
+  content: ''; /* Empty content for underline */
+  position: absolute;
+  width: 100%; /* Underline full width of link */
+  height: 2px; /* Underline thickness */
+  background-color: #d59030; /* Underline color */
+  left: 0; /* Position underline at left */
+  bottom: -3px; /* Position underline below the link */
+  opacity: 0; /* Initially hide underline */
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover:after {
+  opacity: 1; /* Show underline on hover */
+}
+
+.custom-navbar .custom-navbar-nav li a {
+  font-weight: 500;
+  color: #ffffff !important;
+
+}
+
+nav li{
+
+ padding-left: 30px;
+}
+
+
+
+
