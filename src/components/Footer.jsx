@@ -25,11 +25,12 @@ const Footer = () => {
                 <span>Subscribe to Newsletter</span>
               </h3>
 
-              <form action="#" className="row g-3">
+              <form action="https://formspree.io/f/xwkgbvjw" method="post" className="row g-3">
                 <div className="col-auto">
                   <input
                     type="text"
                     className="form-control"
+                    name="username"
                     placeholder="Enter your name"
                     required
                   />
@@ -38,12 +39,13 @@ const Footer = () => {
                   <input
                     type="email"
                     className="form-control"
+                    name="Email"
                     placeholder="Enter your email"
                     required
                   />
                 </div>
                 <div className="col-auto">
-                  <button className="btn btn-primary Sendbtn">SEND</button>
+                  <button type="submit" className="btn btn-primary Sendbtn">SEND</button>
                 </div>
               </form>
             </div>

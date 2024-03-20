@@ -1,7 +1,17 @@
 import ChairData from "../ChairData.json";
+import { useCart } from "./CartContext";
 import "./Shop.css";
 
 const Shop = () => {
+
+  const { updateCartCount } = useCart();
+
+  const handleImageClick = () => {
+    // Example: Update cart count when an image is clicked
+    updateCartCount(previousCount => previousCount + 1);
+  };
+
+
   return (
     <div className="product-section">
       <div className="container">
@@ -38,7 +48,9 @@ const Shop = () => {
                   <h3 className="product-title">{title}</h3>
                   <strong className="product-price">{price}</strong>
                   <span className="icon-cross">
-                    <img src={icon} className="img-fluid" alt="Cross icon" />
+                    <img src={icon} className="img-fluid" alt="Cross icon" 
+                      onClick={handleImageClick}
+                    />
                   </span>
                 </div>
               </div>
